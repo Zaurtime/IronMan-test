@@ -117,6 +117,13 @@ function showResults() {
             <h3 class="summary">%message%</h3>
             <p class="result">%result%</p>
         `;
+
+    let title, message;
+    // Variety text answers for result
+    if (score === questions.length) {
+        title = 'Congratulations!'👍;
+        message = 'You are answered all questions right!😊';
+    }
 }
 
 
