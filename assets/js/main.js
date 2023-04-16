@@ -141,6 +141,11 @@ function showResults() {
                             .replace('%result%', result)
 
     headerContainer.innerHTML = finalMessage;
+
+    //Change button to Start again
+    submitBtn.blur();
+    submitBtn.innerText = 'Start again';
+    submitBtn.onclick = () => history.go();
 }
 
 
