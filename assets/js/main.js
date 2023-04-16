@@ -35,6 +35,7 @@ let questionIndex = 0; // current question
 // clear page fuction
 clearPage();
 showQuestion();
+submitBtn.onclick = checkAnswer;
 
 function clearPage(){
     headerContainer.innerHTML = '';
@@ -65,4 +66,11 @@ function showQuestion(){
         listContainer.innerHTML += answerHTML;
         
     }
+}
+
+function checkAnswer(){
+    console.log('checkAnswer started');
+
+//found selected button
+    const checkedRadio = listContainer.querySelector('input[type="radio"]:checked')
 }
