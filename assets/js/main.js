@@ -121,8 +121,8 @@ function showResults() {
     let title, message;
     // Variety text answers for result
     if (score === questions.length) {
-        title = 'Congratulations!'👍;
-        message = 'You are answered all questions right!😊';
+        title = 'Congratulations!🎉';
+        message = 'You are answered all questions right!😊👍';
     } else if ((score * 100) / questions.length >= 50) {
         title = 'Not bad! 💪';
         message = 'You are answered more than half right answers 👍';
@@ -133,6 +133,14 @@ function showResults() {
 
     //result
     let result = `${score} from ${questions.length}`;
+
+    //final response add messages show to user
+    const finalMessage = resultsTemplate
+                            .replace('%title%', title)
+                            .replace('%message%', message)
+                            .replace('%result%', result)
+
+    headerContainer.innerHTML = finalMessage;
 }
 
 
