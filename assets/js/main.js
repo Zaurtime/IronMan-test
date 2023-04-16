@@ -61,7 +61,7 @@ function showQuestion(){
                 </label>
          </li>`;
 
-        const answerHTML = questionTemplate.replace('%answer', answerText)
+        const answerHTML = questionTemplate.replace('%answer%', answerText)
         listContainer.innerHTML += answerHTML;
         
     }
