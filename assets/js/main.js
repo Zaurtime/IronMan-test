@@ -45,7 +45,10 @@ function showQuestion(){
     console.log('showQuestion');
 
     // question
-    console.log(questions[questionIndex]['question']);
+    
+    const headerTemplate = '<h2 class="title">%title%</h2>';
+    const title = headerTemplate.replace('%title%', questions[questionIndex]['question']);
+    headerContainer.innerHTML = title;
 
     //Answer choice
     for (item of questions[questionIndex]['answers']) {
