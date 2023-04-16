@@ -71,6 +71,14 @@ function showQuestion(){
 function checkAnswer(){
     console.log('checkAnswer started');
 
-//found selected button
+// found selected button
     const checkedRadio = listContainer.querySelector('input[type="radio"]:checked')
+    console.log(checkedRadio);
+
+// if answer not selected - nothing need to do, exit function
+    if (!checkedRadio){
+        submitBtn.blur();
+        return
+    } 
 }
+
