@@ -24,6 +24,8 @@ const questions = [
 
 // Searching elements
 const headerContainer = document.querySelector('#header');
+const listContainer = document.querySelector('#list');
+
 
 
 let score = 0; // right answers count
