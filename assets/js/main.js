@@ -18,4 +18,13 @@ const questions = [
         question: 'How many km can you swim?',
         answers: ['100m', '200m', '2km', '3km and 800meters'],
         correct: 4,
-    }
+    },
+
+];
+
+// Searching elements
+const headerContainer = document.querySelector('#header');
+
+
+let score = 0; // right answers count
+let questionIndex = 0; // current question
