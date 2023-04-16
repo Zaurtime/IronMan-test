@@ -62,6 +62,10 @@ function showQuestion(){
                 </label>
          </li>`;
 
-         const answerHTML = questionTemplate.replace('%answer', answerText)
+        const answerHTML = questionTemplate.replace('%answer', answerText)
+        console.log(answerHTML);
+
+        listContainer.innerHTML = answerHTML;
+        
     }
 }
