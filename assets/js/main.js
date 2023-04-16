@@ -103,8 +103,13 @@ function checkAnswer(){
    } else {
         console.log('This is last question')
         clearPage();
+        showResults();
 
    }
+}
+
+function showResults() {
+    console.log('showResults started!');
 }
 
 
