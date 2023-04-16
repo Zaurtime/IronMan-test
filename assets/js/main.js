@@ -52,12 +52,12 @@ function showQuestion(){
     headerContainer.innerHTML = title;
 
     //Answer choice
-    for (answerText of questions[questionIndex]['answers']) {
+    for ([index, answerText] of questions[questionIndex]['answers'].entries()) {
 
         const questionTemplate = 
          `<li>
                 <label>
-                  <input type="radio" class="answer" name="answer" />
+                  <input value="%number%" type="radio" class="answer" name="answer" />
                   <span>%answer%</span>
                 </label>
          </li>`;
