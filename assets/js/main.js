@@ -123,7 +123,16 @@ function showResults() {
     if (score === questions.length) {
         title = 'Congratulations!'👍;
         message = 'You are answered all questions right!😊';
+    } else if ((score * 100) / questions.length >= 50) {
+        title = 'Not bad! 💪';
+        message = 'You are answered more than half right answers 👍';
+    } else {
+        title = 'Need to try again 😏 Failure is when you stop trying!';
+        message = 'You score less than half right answers';
     }
+
+    //result
+    let result = `${score} from ${questions.length}`;
 }
 
 
