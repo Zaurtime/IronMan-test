@@ -51,7 +51,17 @@ function showQuestion(){
     headerContainer.innerHTML = title;
 
     //Answer choice
-    for (item of questions[questionIndex]['answers']) {
-        console.log(item);
+    for (answerText of questions[questionIndex]['answers']) {
+        console.log(answerText);
+
+        const questionTemplate = 
+         `<li>
+                <label>
+                  <input type="radio" class="answer" name="answer" />
+                  <span>%answer%</span>
+                </label>
+         </li>`;
+
+         const answerHTML = questionTemplate.replace('%answer', answerText)
     }
 }
