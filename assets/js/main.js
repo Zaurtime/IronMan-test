@@ -19,6 +19,19 @@ const questions = [
         answers: ['100m', '200m', '2km', '3km and 800meters'],
         correct: 4,
     },
+    {
+        question: 'Your personal best distance in cycling?',
+        answers: ['20km or less',
+                  '50km',
+                  '180km or more',
+                  '100km'],
+        correct: 3,
+    },
+    {
+        question: 'Who won IronMan Pro World Championship?',
+        answers: ['Gustav Iden', 'Sam Laidlow', 'Lionel Sanders', 'Jan Frodeno'],
+        correct: 1,
+    }
 
 ];
 
