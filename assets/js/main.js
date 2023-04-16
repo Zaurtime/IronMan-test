@@ -85,6 +85,7 @@ function checkAnswer(){
         return
     } 
 
+// To know user answer
     const userAnswer = parseInt(checkedRadio.value)
 }
 
