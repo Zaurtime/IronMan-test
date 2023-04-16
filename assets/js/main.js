@@ -25,8 +25,22 @@ const questions = [
 // Searching elements
 const headerContainer = document.querySelector('#header');
 const listContainer = document.querySelector('#list');
+const submitBtn = document.querySelector('#submit');
 
 
-
+// game process
 let score = 0; // right answers count
 let questionIndex = 0; // current question
+
+// clear page fuction
+clearPage();
+showQuestion();
+
+function clearPage(){
+    headerContainer.innerHTML = '';
+    listContainer.innerHTML = '';
+}
+
+function showQuestion(){
+    console.log('showQuestion');
+}
