@@ -94,11 +94,17 @@ function checkAnswer(){
    }
    console.log('score = ', score);
 
-   if (questionIndex === questions.length - 1){
-       console.log('This is last question')
+   if (questionIndex !== questions.length - 1){
+       console.log('This is not last question');
+       questionIndex++;
+       clearPage();
+       showQuestion();
+
    } else {
-        console.log('This not last question')
+        console.log('This is last question')
+        clearPage();
 
    }
 }
+
 
