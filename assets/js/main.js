@@ -93,5 +93,12 @@ function checkAnswer(){
        score++;
    }
    console.log('score = ', score);
+
+   if (questionIndex === questions.length - 1){
+       console.log('This is last question')
+   } else {
+        console.log('This not last question')
+
+   }
 }
 
