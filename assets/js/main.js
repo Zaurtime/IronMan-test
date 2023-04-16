@@ -110,6 +110,13 @@ function checkAnswer(){
 
 function showResults() {
     console.log('showResults started!');
+    console.log(score);
+
+    const resultsTemplate = `
+            <h2 class="title">%title%</h2>
+            <h3 class="summary">%message%</h3>
+            <p class="result">%result%</p>
+        `;
 }
 
 
