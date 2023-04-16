@@ -43,4 +43,12 @@ function clearPage(){
 
 function showQuestion(){
     console.log('showQuestion');
+
+    // question
+    console.log(questions[questionIndex]['question']);
+
+    //Answer choice
+    for (item of questions[questionIndex]['answers']) {
+        console.log(item);
+    }
 }
