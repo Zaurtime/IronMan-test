@@ -52,8 +52,9 @@ function showQuestion(){
     headerContainer.innerHTML = title;
 
     //Answer choice
-    for ([index, answerText] of questions[questionIndex]['answers'].entries()) {
-
+    let answerNumber = 1;
+    for (answerText of questions[questionIndex]['answers']) {
+        console.log(answerNumber, answerText);
         const questionTemplate = 
          `<li>
                 <label>
@@ -64,7 +65,7 @@ function showQuestion(){
 
         const answerHTML = questionTemplate.replace('%answer%', answerText)
         listContainer.innerHTML += answerHTML;
-        
+        answerNumber++;
     }
 }
 
