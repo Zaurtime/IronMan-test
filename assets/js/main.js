@@ -53,8 +53,8 @@ function showQuestion(){
 
     //Answer choice
     let answerNumber = 1;
-    for (answerText of questions[questionIndex]['answers']) {
-        console.log(answerNumber, answerText);
+    for (answerText of questions[questionIndex]['answers']) {   
+
         const questionTemplate = 
          `<li>
                 <label>
@@ -87,5 +87,11 @@ function checkAnswer(){
 
 // To know user answer
     const userAnswer = parseInt(checkedRadio.value)
+
+// if user answered correct add 
+   if (userAnswer === questions[questionIndex]['correct']) {
+       score++;
+   }
+   console.log('score = ', score);
 }
 
