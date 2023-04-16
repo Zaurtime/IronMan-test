@@ -52,7 +52,6 @@ function showQuestion(){
 
     //Answer choice
     for (answerText of questions[questionIndex]['answers']) {
-        console.log(answerText);
 
         const questionTemplate = 
          `<li>
@@ -63,9 +62,7 @@ function showQuestion(){
          </li>`;
 
         const answerHTML = questionTemplate.replace('%answer', answerText)
-        console.log(answerHTML);
-
-        listContainer.innerHTML = answerHTML;
+        listContainer.innerHTML += answerHTML;
         
     }
 }
