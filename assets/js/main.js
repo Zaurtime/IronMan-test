@@ -63,7 +63,10 @@ function showQuestion(){
                 </label>
          </li>`;
 
-        const answerHTML = questionTemplate.replace('%answer%', answerText)
+        const answerHTML = questionTemplate
+                                .replace('%answer%', answerText)
+                                .replace('%number%', answerNumber)
+
         listContainer.innerHTML += answerHTML;
         answerNumber++;
     }
@@ -74,12 +77,14 @@ function checkAnswer(){
 
 // found selected button
     const checkedRadio = listContainer.querySelector('input[type="radio"]:checked')
-    console.log(checkedRadio);
+   
 
 // if answer not selected - nothing need to do, exit function
     if (!checkedRadio){
         submitBtn.blur();
         return
     } 
+
+    const userAnswer = parseInt(checkedRadio.value)
 }
 
