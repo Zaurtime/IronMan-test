@@ -5,20 +5,56 @@ ul {
 }
 
 body{
-    background-color: rgb(66, 17, 241);
-    color:#36f80f;
+    background-color: rgb(26, 26, 29);
+    color:#fff
 }
 
 h1 {
     font-size: 440%;
     color: aliceblue;
     margin-bottom: 5rem;
+    margin: 1rem auto;
+    width: 50%;
 }
 
 h2 {
     font-size: 2rem;
     margin: 1rem auto;
+    margin: 1rem auto;
+    width: 45%;
 }
+
+li {
+    margin: 1rem auto;
+    width: 20%;
+    
+}
+
+button {
+    font-size: 1.3rem;
+    padding: 1rem 0;
+    width: 20rem;
+   
+    
+    
+    color: rgb(27, 26, 26);
+    border-radius: 4px;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+}
+
+button {
+    
+        cursor: pointer;
+        box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+        transition: transform 150ms;
+        transform: scale(1.03);
+        color: white;
+        background-color: black;
+}
+
+
 
 /* CSS 
 .container {
