@@ -5,13 +5,8 @@ ul {
 }
 
 body{
-    background-color: rgb(29, 26, 26);
-    color:#fff   
-}
-
-body {
-
-    text-align: center;
+    background-color: rgb(66, 17, 241);
+    color:#36f80f;
 }
 
 h1 {
@@ -22,6 +17,7 @@ h1 {
 
 h2 {
     font-size: 2rem;
+    margin: 1rem auto;
 }
 
 /* CSS 
