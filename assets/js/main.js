@@ -56,7 +56,7 @@ function clearPage(){
 }
 
 function showQuestion(){
-    console.log('showQuestion');
+    
 
     // question
     
@@ -86,7 +86,7 @@ function showQuestion(){
 }
 
 function checkAnswer(){
-    console.log('checkAnswer started');
+    
 
 // found selected button
     const checkedRadio = listContainer.querySelector('input[type="radio"]:checked')
@@ -105,16 +105,16 @@ function checkAnswer(){
    if (userAnswer === questions[questionIndex]['correct']) {
        score++;
    }
-   console.log('score = ', score);
+   
 
    if (questionIndex !== questions.length - 1){
-       console.log('This is not last question');
+       
        questionIndex++;
        clearPage();
        showQuestion();
 
    } else {
-        console.log('This is last question')
+        
         clearPage();
         showResults();
 
@@ -122,8 +122,7 @@ function checkAnswer(){
 }
 
 function showResults() {
-    console.log('showResults started!');
-    console.log(score);
+    
 
     const resultsTemplate = `
             <h2 class="title">%title%</h2>
