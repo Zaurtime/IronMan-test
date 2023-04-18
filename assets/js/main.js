@@ -66,7 +66,7 @@ function showQuestion(){
 
     //Answer choice
     let answerNumber = 1;
-    for (answerText of questions[questionIndex].answers) {   
+    for (let answerText of questions[questionIndex].answers) {   
 
         const questionTemplate = 
          `<li>
@@ -157,7 +157,10 @@ function showResults() {
     //Change button to Start again
     submitBtn.blur();
     submitBtn.innerText = 'Start again';
-    submitBtn.onclick = () => history.go();
+    submitBtn.onclick = function() {
+        history.go()
+};
+
 }
 
 
