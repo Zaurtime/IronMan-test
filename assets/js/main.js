@@ -61,12 +61,12 @@ function showQuestion(){
     // question
     
     const headerTemplate = '<h2 class="title">%title%</h2>';
-    const title = headerTemplate.replace('%title%', questions[questionIndex]['question']);
+    const title = headerTemplate.replace('%title%', questions[questionIndex].question);
     headerContainer.innerHTML = title;
 
     //Answer choice
     let answerNumber = 1;
-    for (answerText of questions[questionIndex]['answers']) {   
+    for (answerText of questions[questionIndex].answers) {   
 
         const questionTemplate = 
          `<li>
@@ -78,7 +78,7 @@ function showQuestion(){
 
         const answerHTML = questionTemplate
                                 .replace('%answer%', answerText)
-                                .replace('%number%', answerNumber)
+                                .replace('%number%', answerNumber);
 
         listContainer.innerHTML += answerHTML;
         answerNumber++;
@@ -89,20 +89,20 @@ function checkAnswer(){
     
 
 // found selected button
-    const checkedRadio = listContainer.querySelector('input[type="radio"]:checked')
+    const checkedRadio = listContainer.querySelector('input[type="radio"]:checked');
    
 
 // if answer not selected - nothing need to do, exit function
     if (!checkedRadio){
         submitBtn.blur();
-        return
+        return;
     } 
 
 // To know user answer
-    const userAnswer = parseInt(checkedRadio.value)
+    const userAnswer = parseInt(checkedRadio.value);
 
 // if user answered correct add 
-   if (userAnswer === questions[questionIndex]['correct']) {
+   if (userAnswer === questions[questionIndex].correct) {
        score++;
    }
    
@@ -150,7 +150,7 @@ function showResults() {
     const finalMessage = resultsTemplate
                             .replace('%title%', title)
                             .replace('%message%', message)
-                            .replace('%result%', result)
+                            .replace('%result%', result);
 
     headerContainer.innerHTML = finalMessage;
 
