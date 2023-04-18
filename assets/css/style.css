@@ -7,7 +7,7 @@ ul {
 body{
     background-color: rgb(26, 26, 29);
     color:#fff;
-    background-image: url(../images/DJI_0547.JPG);
+    background-image: url(../images/djmini3.png);
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -35,7 +35,7 @@ h2 {
 li {
     margin: 1rem auto;
     width: 20%;
-    color:#300000
+    color:#fff
     
 }
 
@@ -97,7 +97,9 @@ button {
         
     }
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
+        
+        
         
         
         
