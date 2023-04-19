@@ -52,4 +52,33 @@ Are you an IronMan? Is a triathlete quiz, with which you can check your knowledg
 
 5. As a user, I want to start the game again.
 
+# Design
 
+## Structure
+
+The page structure is user friendly and simple. When entering the site, the user sees the quiz. The site consists of one page which changes depending on the function:
+
+* A question page with quiz;
+* A result page, that shows the result of the game.
+
+## Skeleton
+
+The wireframes for mobile and desktop were created with Balsamiq tool:
+
+
+![desktop1](https://user-images.githubusercontent.com/119350794/233038778-2c6ec3a3-bbf6-445e-9e66-12dfe441bada.png)
+
+![desktop2](https://user-images.githubusercontent.com/119350794/233039234-516aa65b-f6fc-45ab-a02e-fab0f0c47e08.png)
+
+
+![mobile1](https://user-images.githubusercontent.com/119350794/233039691-dfe10fde-d876-43cd-b86d-6c3408669748.png)
+
+![mobileview2](https://user-images.githubusercontent.com/119350794/233039720-5744a85b-4cbd-4533-8d0a-6a593bf4f04d.png)
+
+# Images
+
+* The quiz background image is downloaded from my desktop and captured by drone DJI mini 3 PRO
+
+# Colors 
+
+*  All the colors used for creating the design and easy to read. 
