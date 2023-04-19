@@ -61,7 +61,7 @@ The page structure is user friendly and simple. When entering the site, the user
 * A question page with quiz;
 * A result page, that shows the result of the game.
 
-## Skeleton
+# Skeleton
 
 The wireframes for mobile and desktop were created with Balsamiq tool:
 
@@ -75,10 +75,38 @@ The wireframes for mobile and desktop were created with Balsamiq tool:
 
 ![mobileview2](https://user-images.githubusercontent.com/119350794/233039720-5744a85b-4cbd-4533-8d0a-6a593bf4f04d.png)
 
-# Images
+## Images
 
 * The quiz background image is downloaded from my desktop and captured by drone DJI mini 3 PRO
 
-# Colors 
+## Colors 
 
 *  All the colors used for creating the design and easy to read. 
+
+# FEATURES
+
+* All the actions that take place in the test are created after a clear structure and logic that is represented in this Flowchart
+
+![Flowchart](https://user-images.githubusercontent.com/119350794/233043103-6f28a12e-0dad-4ab1-b1a3-7eddfbc3d458.jpeg)
+
+## EXISTING FEATURES
+
+This test has multiple features that were created to make it an easy and intuitive quiz to play for teenagers and adults as well.
+
+* When you open page will see title, first question and 4 answer options with submit button
+
+
+![page1](https://user-images.githubusercontent.com/119350794/233044458-d50c989a-dad6-425d-ac0d-c99d0ba307c8.png)
+
+* When you completed all questions, a message pops up with congratulations or other messages
+
+![page5](https://user-images.githubusercontent.com/119350794/233047163-010d2111-cc21-465f-a271-5b61a1069ce9.png)
+
+* Another example of results
+
+![page6](https://user-images.githubusercontent.com/119350794/233048685-f6d976b9-0d54-4411-980f-e6f932bbc805.png)
+
+
+![page8](https://user-images.githubusercontent.com/119350794/233048728-a9dbd8fd-459d-4fe1-b5af-8919f5f48501.png)
+
+
