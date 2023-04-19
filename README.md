@@ -54,6 +54,8 @@ Are you an IronMan? Is a triathlete quiz, with which you can check your knowledg
 
 # Design
 
+This quiz-test was created respecting the Five Planes Of Website Design:
+
 ## Structure
 
 The page structure is user friendly and simple. When entering the site, the user sees the quiz. The site consists of one page which changes depending on the function:
@@ -198,3 +200,35 @@ For creating a clone of the repository on your local machine, useClone:
 * In your IDE open Git Bash
 * Enter the command git clone followed by the copied URL
 * Your clone was create
+
+# CREDITS
+
+* Code Institute for the Gitpod template provided at https://github.com/Code-Institute-Org/gitpod-full-template allowing easy set up of a repository and workspace s well as initial project HTML template;
+* Different YouTube chanels for creating quiz;
+* w3schools for independent solution.
+
+# Technologies Used
+
+## Languages
+
+* HTML
+* CSS
+* JavaScript
+
+## Tools & Frameworks  
+
+* GitHub - used for hosting the source code of the site and the deployed site on GitHub Pages
+* Gitpod Dev Environment - used for developing the website
+* HTML - W3C HTML Validator - used for validating the HTML
+* CSS - Jigsaw CSS Validator - used for validating the CSS
+* JShint - used for validating the JavaScript file
+* Balsamiq - used for creating the wireframes
+* LucidChart - used to build flowcharts and diagrams with easy to use features that help me visualize my idea, system, and process
+* Chrome Lighthouse and Chrome Developer Tools - used for checking performance of the website
+
+# Acknowledgements
+
+- Code Institute for all the material and support offered
+- My Super mentor Mr.Gareth McGirr for his help, advice and support.
+- Slack community for great involvement in helping each other
+- To my colleagues with whom I study who helped solve problems together
