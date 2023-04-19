@@ -109,4 +109,61 @@ This test has multiple features that were created to make it an easy and intuiti
 
 ![page8](https://user-images.githubusercontent.com/119350794/233048728-a9dbd8fd-459d-4fe1-b5af-8919f5f48501.png)
 
+# Validation
 
+## HTML Validation
+
+* The W3C Markup Validation Service was used to validate the HTML of the website. File passed with no errors no warnings to show.
+
+![HTMLvalidated](https://user-images.githubusercontent.com/119350794/233052972-b502398c-81ff-42a3-84c4-656a6390210e.png)
+
+## CSS Validation
+
+* The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website. File passed with no errors no warnings to show.
+
+![CSSvalidated](https://user-images.githubusercontent.com/119350794/233053151-8672fb94-1f8b-4362-bd17-dbfc5d59f680.png)
+
+## JavaScript Validation
+
+* JSHint Static Code Analysis Tool for JavaScript was used to validate the Javascript files. No significant issues were found.
+
+![jsnhint](https://user-images.githubusercontent.com/119350794/233053410-1d9b84d3-3b67-4763-856f-8465e9c35f48.png)
+
+## Performance
+
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website.
+
+* Lighthouse Desktop 
+
+![lighthouseDesktop](https://user-images.githubusercontent.com/119350794/233053924-547e2111-65e2-4df2-80ac-0dbca859cbd3.png)
+
+* Lighthouse Mobile
+
+![lghthouseMobile](https://user-images.githubusercontent.com/119350794/233054027-f3517a9b-08ca-4bba-a670-0cc75c0fe08d.png)
+
+## Performing tests on various devices
+
+The website was tested on the following devices:
+* Iphone 14;
+* Iphone XR;
+* Iphone SE;
+* IPad Air;
+* Lenovo ThinkPad.
+
+## Browser Compatability
+
+The website was tested on the following browsers:
+* Google Chrome;
+* Safari;
+* Microsoft Edge.
+
+## Unfixed Bugs
+
+* No bugs all fixed.
+
+# Deployment
+
+## CREATING THE WEBSITE
+
+This site was created using the Code Institute Full Template. The steps were as following:
+* 
