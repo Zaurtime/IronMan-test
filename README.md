@@ -144,6 +144,7 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 ## Performing tests on various devices
 
 The website was tested on the following devices:
+
 * Iphone 14;
 * Iphone XR;
 * Iphone SE;
@@ -153,6 +154,7 @@ The website was tested on the following devices:
 ## Browser Compatability
 
 The website was tested on the following browsers:
+
 * Google Chrome;
 * Safari;
 * Microsoft Edge.
@@ -166,4 +168,33 @@ The website was tested on the following browsers:
 ## CREATING THE WEBSITE
 
 This site was created using the Code Institute Full Template. The steps were as following:
-* 
+
+* Click the Use this template button
+* A New Repository page will appear, write a Repository name and a short description and press Create repository from template
+* Press the green Gitpod button to create your project workspace and start developing your website
+
+## DEPLOYING ON GITHUB PAGES
+
+After finishing developing the site I deployed it on Githup Pages following the instructions:
+
+* Go to Settings
+* Scroll down to Github Pages
+* From Source choose main and Save, this is the branch from where your site will be deployed
+* A link to your website deployed will be generated
+
+## FORK THE REPOSITORY
+
+For creating a copy of the repository on your account and change it without affecting the original project, useFork directly from GitHub:
+
+* On My Repository Page, press Fork in the top right of the page
+* A forked version of my project will appear in your own repository
+
+## CLONE THE REPOSITORY
+
+For creating a clone of the repository on your local machine, useClone:
+
+* On My Repository Page, click the Code green button, right above the code window
+* Chose from HTTPS, SSH and GitClub CLI format and copy (preferably HTTPS)
+* In your IDE open Git Bash
+* Enter the command git clone followed by the copied URL
+* Your clone was create
