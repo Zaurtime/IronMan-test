@@ -135,7 +135,8 @@ This test has multiple features that were created to make it an easy and intuiti
 
 * JSHint Static Code Analysis Tool for JavaScript was used to validate the Javascript files. No significant issues were found.
 
-![jsnhint](https://user-images.githubusercontent.com/119350794/233053410-1d9b84d3-3b67-4763-856f-8465e9c35f48.png)
+![jsnhint](https://user-images.githubusercontent.com/119350794/233841881-b257ded0-7d33-40b7-86e0-9a4967344f38.png)
+
 
 ## Performance
 
